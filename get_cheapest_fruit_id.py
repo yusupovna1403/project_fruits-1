@@ -22,5 +22,5 @@ def get_cheapest_fruit_id(fname:str)->id:
         if float(lst2[i]) < float(min):
             min = lst2[i]
             s = lst1[i]
-    return lst1.index(s) + 1
+    return lst1.index(s)
 print(get_cheapest_fruit_id('fruits.csv'))
